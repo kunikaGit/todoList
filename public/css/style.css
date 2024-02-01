@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    padding: 50px 0;
+}
+.todos h1{
+    text-align: center;
+}
+.listContainer{
+    display: flex;
+    justify-content: center;
+}
+.todos .listContainer input{
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+}
+.todos .listContainer button{
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+    background-color: rgb(66, 222, 66);
+    cursor: pointer;
+}
+.list ul {
+padding-left: 10px;
+}
+.list ul li {
+    margin: 20px;
+    border-bottom: 1px solid #ccc;
+    list-style: none;
+}
+.list ul li input{
+    margin-right:10px;
+}
+.list ul li  button{
+    margin: 10px;
+    border: none;
+    background-color: red;
+    color: #fff;
+    padding: 5px;
+    float: right;
+    margin-top: -10px;
+}
